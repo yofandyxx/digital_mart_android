@@ -1,0 +1,27 @@
+name: digitalmart
+description: A Flutter shopping app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Tambahkan package intl untuk format mata uang Rupiah
+  intl: ^0.19.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Jika kamu menggunakan file gambar (misal di folder assets/images/)
+  # buka tanda komentar di bawah ini:
+  # assets:
+  #   - assets/images/
